@@ -6,8 +6,6 @@ import { MessageService } from '../message.service';
 import { Store } from '@ngrx/store';
 import * as fromStore from '../store';
 import { Observable } from 'rxjs';
-import { map, take } from 'rxjs/operators';
-import { load } from '@angular/core/src/render3/instructions';
 
 @Component({
   selector: 'app-heroes',
